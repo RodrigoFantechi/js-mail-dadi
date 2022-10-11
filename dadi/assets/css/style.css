@@ -18,13 +18,13 @@ body{
     aspect-ratio: 1/1;
     margin: auto;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.25rem;
     font-weight: bold;
     color: white;
 }
 .numberPc, .numberUser{
     margin-top: 3rem;
-    font-size: 4rem;
+    font-size: 6rem;
 }
 .my_container{
     height: 100vh;
