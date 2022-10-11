@@ -6,7 +6,7 @@ const eMails =[
     'marzoni_incapaci123@mailtag.com'
 ];
 
-const userMail = prompt('inserire e-mail');
+const userMail = prompt('inserire E-Mail');
 
 if (eMails.includes(userMail)){
     alert('accesso consentito!')
