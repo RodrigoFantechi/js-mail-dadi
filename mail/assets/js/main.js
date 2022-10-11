@@ -12,8 +12,21 @@ const eMails =[
 
 const userMail = prompt('inserire E-Mail');
 
-if (eMails.includes(userMail)){
-    alert('accesso consentito!')
-} else{
-    alert('accesso negato!')
+// if (eMails.includes(userMail)){
+//     alert('accesso consentito!')
+// } else{
+//     alert('accesso negato!')
+// }
+
+
+//o
+
+let valid = 'accesso negato!'
+
+for (let i = 0; i < eMails.length; i++) {
+    if (eMails[i]===userMail){
+        valid = 'accesso consentito!';
+    }
 }
+
+alert(valid);
